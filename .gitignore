@@ -1,0 +1,32 @@
+# ---- 运行期数据：含登录态 / 个人进度 / 日志，绝对不能提交 ----
+.beeline/
+.userdata/
+logs/
+reports/
+debug/
+state.json
+*.log
+
+# ---- 逆向勘察的一次性产物（大体积、含个人数据） ----
+.scratch/
+dist/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 打包产物 ----
+*.zip
+*.7z
+*.rar

@@ -1,0 +1,6 @@
+# 芯位蜜线（Bee Line）考核点自动化 — 运行依赖
+# 安装：python -m pip install -r requirements.txt
+# 浏览器：本程序使用系统已安装的 Microsoft Edge（channel="msedge"），
+#        因此无需执行 `playwright install` 下载 Chromium。
+
+playwright>=1.45.0
